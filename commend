@@ -1,0 +1,9 @@
+wget https://github.com/nilaoda/BBDown/releases/download/1.5.4/BBDown_1.5.4_20221019_linux-x64.zip
+wget https://launchpad.net/ubuntu/+source/ffmpeg/7:5.1.2-3ubuntu1/+build/25600862
+wget https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
+tar xvf ffmpeg-git-amd64-static.tar.xz
+cd ffmpeg-git-20201104-amd64-static
+ls
+./ffmpeg
+./BBDown https://www.bilibili.com/video/BV19P4y1A7Yk --encoding-priority hevc
+./BBDown --ffmpeg-path /workspaces/Amine/ffmpeg-5.1.2/Makefile
